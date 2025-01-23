@@ -71,3 +71,15 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
     - index.html
     - main.ts
     - styles.css
+
+## http-server
+- Para arrancar con http-serve, ejecutar ```http-server -o /index.html``` en la carpeta [dist/02-bases/browser]
+
+## netlify
+- Para que todo funcione correctamente en netlify:
+  - Cortar todos los archivos de la carpeta [dist/02-bases/browser]
+  - Pegar en [dist/02-bases]
+  - Eliminar el directorio [browser]
+  - Arrastra la carpeta [02-bases] a netlify
+
+
